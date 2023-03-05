@@ -483,7 +483,7 @@ blockquote::after {
   color: var(--white);
   font-size: 2rem;
 }
-.footer__social-media a {
+.footer__social-media p {
   margin-left: 20px;
   font-size: 1.4rem;
   color: var(--white);

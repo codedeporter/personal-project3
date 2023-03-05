@@ -2,6 +2,7 @@
 let menuEl = document.querySelector(".menu");
 let listEl = document.querySelector(".list");
 
+//This toggles the menu when the menu icon is visible
 menuEl.addEventListener("click", () => {
   if (listEl.style.display == "none") {
     listEl.style.display = "block";
@@ -16,6 +17,7 @@ let note = document.querySelector(".note");
 let deleteButton = document.querySelector(".deleteButton");
 let arr = [];
 
+// This function captures what is typed into the input box, saves it to local storage, pulls it from local storage and displays it on the screen along with the date and time
 let newNotes = function () {
   let newNote = notes.value;
   let date = new Date();
@@ -33,13 +35,4 @@ let newNotes = function () {
 function clearNotes() {
   notes.value = "";
 }
-// deleteButton.addEventListener('click', clearNote)
 
-// function clearNote(){
-//     let item = e.target
-//     if(item.classList[0]==='deleteButton'){
-//         item.parentElement.remove()
-//     }else{
-//         console.log('Hello')
-//     }
-// }
