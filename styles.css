@@ -213,11 +213,13 @@ blockquote::before {
   content: open-quote;
   font-size: 2em;
   color: var(--button);
+  font-family: 'Kaushan Script', cursive;
 }
 blockquote::after {
   content: close-quote;
   font-size: 2em;
   color: var(--button);
+  font-family: 'Kaushan Script', cursive;
 }
 .author {
   text-align: right;
@@ -300,7 +302,6 @@ blockquote::after {
     width: 60%;
   }
   .main__left-side h1 {
-    /* margin-top: 60px; */
     font-size: 2rem;
   }
   .main__left-side span {
