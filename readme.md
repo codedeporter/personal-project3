@@ -23,15 +23,15 @@ None
   This project satisfies a class requirement to complete a project of my choosing.  This project was slowly built over time as I learned new concepts.
 
   - What did you set out to build?
-  I wanted to build a website that I can link to my tiktok account to bring awareness to suicide.
+  I wanted to build a website that I can link to my TikTok account to bring awareness to suicide.
 
   - Why was this project challenging and therefore a really good learning experience?
   This project was challenging because I used many newly learned concepts while designing the project.  I spent a lot of time watching youTube videos to reinforce classroom concepts.
 
   - What were some unexpected obstacles?
-  While designing the project to fit the dimensions in the Dev Tools, I would break the project in the live server.  Media queries was especially hard to configure. Coming up with content for each page was quite a challenge.
+  While designing the project to fit the dimensions in the Dev Tools, I would break the project in the live server.  Media queries were especially hard to configure. Coming up with content for each page was quite a challenge.
 
   - What tools did you use to implement this project?
-  I used Vanilla JavaScript and html concepts to design the project.  I used a color palette from color-hunt, many youTube videos for inspiration, VSCode, Live Server, Chrome, Chrome Dev Tools, Teaching Fellows.
+  I used Vanilla JavaScript and html concepts to design the project.  I used a color palette from color-hunt, many youTube videos for inspiration, VSCode, Live Server, Google, Chrome, Chrome Dev Tools, Teaching Fellows.
 
 

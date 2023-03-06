@@ -4,7 +4,7 @@ let listEl = document.querySelector(".list");
 
 //This toggles the menu when the menu icon is visible
 menuEl.addEventListener("click", () => {
-  if (listEl.style.display == "none") {
+  if (listEl.style.display === "none") {
     listEl.style.display = "block";
   } else {
     listEl.style.display = "none";
@@ -26,7 +26,7 @@ let newNotes = function () {
   note.innerHTML += `<div style='padding:20px;font-size:1.2rem;'>
     <h3>${savedInput}</h3>
     <p>${date.toDateString()}, ${date.toLocaleTimeString()}</p>
-        <i class="fa-sharp fa-solid fa-xmark deleteButton"></i>
+    <i class="fa-sharp fa-solid fa-xmark deleteButton"></i>
     <div>`;
   return arr.push(savedInput);
 };

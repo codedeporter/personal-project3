@@ -483,11 +483,14 @@ blockquote::after {
   color: var(--white);
   font-size: 2rem;
 }
+.profile:hover::before {
+  display: inline-block;
+  content: attr(data-name);
+}
 .footer__social-media p {
   margin-left: 20px;
   font-size: 1.4rem;
   color: var(--white);
-  text-decoration: none;
 }
 .footer__emergency-contacts ul {
   list-style: none;
