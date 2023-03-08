@@ -14,8 +14,6 @@ menuEl.addEventListener("click", () => {
 //The diary section
 let notes = document.querySelector(".notes");
 let note = document.querySelector(".note");
-let deleteButton = document.querySelector(".deleteButton");
-let arr = [];
 
 // This function captures what is typed into the input box, saves it to local storage, pulls it from local storage and displays it on the screen along with the date and time
 let newNotes = function () {
@@ -23,11 +21,10 @@ let newNotes = function () {
   let date = new Date();
   localStorage.setItem("savedNote", newNote);
   const savedInput = localStorage.getItem("savedNote");
-  note.innerHTML += `<div style='padding:20px;font-size:1.2rem;'>
-    <h3>${savedInput}</h3>
+  note.innerHTML += `<div class="div1" style='padding:20px;font-size:1.2rem;'>
+    <h3 id="h3">${savedInput}</h3>
     <p>${date.toDateString()}, ${date.toLocaleTimeString()}</p>
-    <i class="fa-sharp fa-solid fa-xmark deleteButton"></i>
-    <div>`;
+    </div>`;
   return arr.push(savedInput);
 };
 
@@ -35,4 +32,3 @@ let newNotes = function () {
 function clearNotes() {
   notes.value = "";
 }
-

@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200;300;400;500;600;700&family=Raleway:wght@300&display=swap");
 
-/* font-family: 'Kaushan Script', cursive;
-font-family: 'Poppins', sans-serif;
-font-family: 'Raleway', sans-serif; */
-
 :root {
   --menu-bar: #37455a;
   --button: #ea1538;
@@ -136,7 +132,6 @@ body {
     display: none;
   }
 
-
   .list li {
     margin-bottom: 1em;
   }
@@ -213,13 +208,13 @@ blockquote::before {
   content: open-quote;
   font-size: 2em;
   color: var(--button);
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
 }
 blockquote::after {
   content: close-quote;
   font-size: 2em;
   color: var(--button);
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
 }
 .author {
   text-align: right;
@@ -239,7 +234,7 @@ blockquote::after {
   outline: none;
   cursor: pointer;
 }
-.main__left-side .btn a{
+.main__left-side .btn a {
   text-decoration: none;
   color: var(--white);
 }
@@ -549,11 +544,11 @@ blockquote::after {
   width: 60%;
   border: none;
   outline: none;
-  cursor: pointer
+  cursor: pointer;
 }
-.main__right-side2 .btn a{
+.main__right-side2 .btn a {
   text-decoration: none;
-  color: var(--white);;
+  color: var(--white);
 }
 .main__right-side2 .mlb-btn:hover {
   opacity: 0.8;
@@ -1009,4 +1004,3 @@ tr td:first-child {
   }
 }
 /*media query contact form ends*/
-
